@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Log In</title>
+   <script type= "text/javascript" src ="C:/Users/kelle/teamtracking/Server.js"></script>
+   <meta charset="utf-8"/>
+</head>
+
+<body>
+  <form action="login" method="POST" onsubmit="auth()">
+    <label for="user">Username: </label>
+    <input id="user" type="text" name="user" required/><br><br>
+    <label for="pass">Password: </label>
+    <input id="pass" type="text" name="pass" required/><br><br>
+    <input type="Submit" value="Sign In">
+  </form>
+  <script type="text/javascript">  
+    if (rect === 1)
+      location.assign('/index')
+    else
+      location.assign('/default')
+  </script> 
+</body>
+</html>
